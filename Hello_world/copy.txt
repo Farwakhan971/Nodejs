@@ -1,0 +1,24 @@
+const { error } = require("console");
+const fs  = require("fs");
+// synchronous file creation
+// fs.writeFileSync("./farwa.txt", "hey I'm Farwa khan")
+// Asynchronous file creation
+// fs.writeFile("./nida.dart", "nida", error => {})
+//const result = fs.readFileSync("./contacts.txt", "utf-8")
+//console.log(result);
+
+
+// fs.readFile("./contacts.txt", "utf-8", (error, result) => {
+//    if(error){
+//     console.log(error);
+//    }
+//    else{
+//       console.log(result);
+//    }
+// })
+
+ //fs.appendFileSync('./hello.js', 'farwa');
+
+  fs.copyFileSync('file_system.js', 'copy.txt'); 
+
+ //fs.unlinkSync('./hello.js');
